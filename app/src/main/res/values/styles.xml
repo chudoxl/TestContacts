@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorRed</item>
+        <item name="colorPrimaryDark">@color/colorDark100</item>
+        <item name="colorAccent">@color/colorRed</item>
+        <item name="android:windowBackground">@color/colorDark100</item>
+        <item name="colorControlNormal">@color/colorWhite012</item>
+
+        <item name="android:textColor">@color/colorWhite100</item>
+
+        <item name="editTextStyle">@style/AppEditText</item>
+        <item name="textInputStyle">@style/AppTextInputLayout</item>
+    </style>
+
+    <style name="AppEditText" parent="Base.Widget.MaterialComponents.TextInputEditText">
+        <!--<item name="android:textAppearance">@style/taBody1</item>-->
+        <item name="android:textColor">@color/colorWhite100</item>
+        <item name="android:textColorHint">@color/colorWhite056</item>
+        <item name="android:singleLine">true</item>
+        <!--<item name="android:background">@drawable/bg_edittext</item>-->
+        <item name="android:paddingTop">16dp</item>
+        <item name="android:paddingBottom">16dp</item>
+        <item name="android:paddingRight">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <style name="AppTextInputLayout" parent="Widget.Design.TextInputLayout">
+        <item name="android:textColorHint">@color/colorWhite056</item>
+        <!--<item name="helperTextTextAppearance">@style/taHelperText</item>-->
+    </style>
+
+</resources>

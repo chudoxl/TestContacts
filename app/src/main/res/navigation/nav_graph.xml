@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/nav_graph.xml"
+            app:startDestination="@id/bot_nav_item_home">
+
+    <fragment android:id="@+id/bot_nav_item_home"
+              android:name="com.github.chudoxl.testcontacts.home.HomeFragment"
+              android:label="fragment_home"
+              tools:layout="@layout/fragment_home"/>
+
+    <fragment android:id="@+id/bot_nav_item_contacts"
+              android:name="com.github.chudoxl.testcontacts.contacts.ContactsFragment"
+              android:label="fragment_contacts"
+              tools:layout="@layout/fragment_contacts"/>
+</navigation>
